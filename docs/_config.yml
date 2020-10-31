@@ -21,9 +21,6 @@ highlighter_dir: ltr
 
 author: Ali Mousavi Kherad
 
-repository: aratel
-PAGES_REPO_NWO: aratel
-
 addons:
   - github
   - i18n
@@ -78,3 +75,4 @@ translate:
   search_results: نتایج جستجو
   search_results_found: نتایج جستجو #
   search_results_not_found: هیچ نتیجه‌ای یافت نشد
+  
