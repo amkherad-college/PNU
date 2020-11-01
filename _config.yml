@@ -8,6 +8,8 @@ remote_theme: amkherad/jekyll-rtd-theme # rundocs/jekyll-theme-docsify
 
 author: Ali Mousavi Kherad
 
+direction: rtl
+
 debug:
   compress: true
   dist: false
