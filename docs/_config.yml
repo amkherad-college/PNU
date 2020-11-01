@@ -4,22 +4,49 @@ description: PNU
 
 # ===============================
 
-remote_theme: amkherad/jekyll-rtd-theme # rundocs/jekyll-theme-docsify
-
-debug:
-  compress: true
-  dist: false
-  shortcodes: true
-
-nav_version: true
-edit: false
-addons_branch: true
-
-
-direction: rtl
-highlighter_dir: ltr
+remote_theme: CloudCannon/edition-jekyll-template #amkherad/jekyll-rtd-theme # rundocs/jekyll-theme-docsify
 
 author: Ali Mousavi Kherad
+
+collections:
+  docs:
+    title: Documentation
+    permalink: /:path/
+    output: true
+    defaults:
+      -
+        scope:
+          path: ""
+        values:
+          layout: default
+      -
+        scope:
+          path: ""
+          type: "docs"
+        values:
+          seo:
+            type: Article
+          _comments:
+            category: Group navigation links with this field
+            order: Used to sort links in the navigation
+          _options:
+            content:
+              width: 800
+              height: 2000
+      -
+        scope:
+          path: ""
+          type: "posts"
+        values:
+          _comments:
+            type: Marks the impact of this release
+    
+    # -----------
+    # CloudCannon
+    
+    types:
+      - minor
+      - major
 
 addons:
   - github
@@ -37,7 +64,6 @@ readme_index:
   with_frontmatter: true
 
 plugins:
-  - jemoji
   - jekyll-avatar
   - jekyll-mentions
   - jekyll-redirect-from
