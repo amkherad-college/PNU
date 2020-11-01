@@ -1,6 +1,6 @@
-[submodule "docs/PNU_3991"]
-	path = docs/PNU_3991
+[submodule "PNU_3991"]
+	path = PNU_3991
 	url = https://github.com/amkherad-college/PNU_3991.git
-[submodule "docs/PNU_3983"]
-	path = docs/PNU_3983
+[submodule "PNU_3983"]
+	path = PNU_3983
 	url = https://github.com/amkherad-college/PNU_3983.git
