@@ -4,7 +4,7 @@ description: PNU
 
 # ===============================
 
-remote_theme: CloudCannon/edition-jekyll-template #amkherad/jekyll-rtd-theme # rundocs/jekyll-theme-docsify
+remote_theme: amkherad/jekyll-rtd-theme # rundocs/jekyll-theme-docsify
 
 author: Ali Mousavi Kherad
 
