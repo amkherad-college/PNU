@@ -1,3 +1,6 @@
 [submodule "Semesters/PNU_3991"]
 	path = Semesters/PNU_3991
 	url = https://github.com/amkherad-college/PNU_3991.git
+[submodule "Projects/PNU_3991_AR"]
+	path = Projects/PNU_3991_AR
+	url = https://github.com/amkherad-college/PNU_3991_AR-Projects.git
