@@ -35,6 +35,11 @@ plugins:
   - jekyll-mentions
   - jekyll-redirect-from
 
+include:
+  - Semesters/PNU_3991/MSc
+  - Semesters/PNU_3991/BSc
+  - Semesters/PNU_3991/Image
+  - Semesters/PNU_3991/Syllabus
 
 exclude:
   - Makefile

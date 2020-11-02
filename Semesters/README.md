@@ -1,6 +1,6 @@
 ---
-title: Semesters
-sort: 1
+title: ترم ها
+
 ---
 
 # Semesters
